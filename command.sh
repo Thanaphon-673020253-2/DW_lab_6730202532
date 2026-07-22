@@ -7,5 +7,5 @@ pip intit <dbt-project-name>
 #jump into the dbt project directory
 cd <dbt-project-name>
 
-#check debug
+#check debug connection
 dbt debug
