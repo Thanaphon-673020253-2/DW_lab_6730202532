@@ -6,7 +6,27 @@ sources:
     description: "Raw flat files queried directly from the local workspace folder"
     meta: # Additional metadata for the source
       # {name} is a placeholder that automatically injects the table names listed below
-      external_location: 'datasets/{name}.csvCSV.url'
+      external_location: 'datasets/{name}.csv'
     tables:
-      - name: customer                  # Maps straight to datasets/customer.csv
-        description: "Customer data from the Northwind dataset"
+      - name : customer     # Maps straight to datasets/customer.csv
+      - name : products
+      - name : employee_privileges
+      - name : employees
+      - name : inventory_transactions
+      - name : inventory_transaction_types
+      - name : invoices
+      - name : order_details
+      - name : order_details_status
+      - name : orders
+      - name : orders_status
+      - name : orders_tax_status
+      - name : privileges
+      - name : purchase_order_details
+      - name : purchase_orders
+      - name : purchase_order_status
+      - name : sales_reports
+      - name : shippers
+      - name : strings
+      - name : suppliers
+
+                # Maps straight to datasets/customer.csv
