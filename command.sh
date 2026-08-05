@@ -8,4 +8,4 @@ pip intit <dbt-project-name>
 cd <dbt-project-name>
 
 #check debug connection
-dbt debug
+dbt debugstreamlit

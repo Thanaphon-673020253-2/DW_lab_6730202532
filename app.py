@@ -32,7 +32,7 @@ st.markdown("""
     .main-title {
         font-size: 2.5rem;
         font-weight: 700;
-        color: #1F2937;
+        color: #7CFC00;
         margin-bottom: 0.2rem;
     }
     .subtitle {
@@ -43,7 +43,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="main-title">📊 Northwind DW Explorer</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">📊 Northwind DW Explorer (673030253-2 Thanaphon Tawnor)</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Inspect and preview raw datasets, staging tables, and dimension views in dev.duckdb</div>', unsafe_allow_html=True)
 
 # Fetch all tables
